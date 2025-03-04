@@ -1,0 +1,151 @@
+nav ul li{
+  color: white;
+   font-size: 17px;
+}
+
+#icons{
+  position: relative;
+  display: flex;
+  justify-content: center;
+   align-items: end;
+}
+
+#icons::before{
+  position: absolute;
+  content: "";
+  /* bottom: -4px; */
+  width: 0%;
+  height: 2px;
+  border-radius: 50px;
+  background-color: #4BFFA5;
+  transition: 0.5s;
+}
+
+#icons:hover::before{
+  width: 100%;
+}
+
+#icons:hover{
+  color: #4BFFA5;
+}
+
+
+.resume{
+  text-shadow: 1px 1px 1px rgb(56, 56, 56);
+  /* box-shadow: 0px 0px 0px 0px #4BFFA5; */
+}
+
+.bigheader{
+  z-index: 1;
+}
+
+.follow{
+  transform: rotate(90deg);
+  text-shadow:  1px 1px 2px black;
+}
+
+.myphoto{
+  box-shadow: 0px 0px 7px 3px dimgray;
+}
+
+#flicon{
+  /* transform: rotate(90deg); */
+   margin-top: 50%;
+   color: #4BFFA5;
+   /* text-shadow: 0px 0px 5px   #4BFFA5 ; */
+}
+
+.title{
+    text-shadow: 0.5px 0.5px 5px dimgray;
+}
+
+.section{
+  border: 0.8px solid rgb(87, 87, 87);
+  border-radius: 5px ;
+}
+
+#downarr{
+  animation: dwnarr;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dwnarr{
+  0%{
+    transform: translatey(10px);
+  }
+  50%{
+    transform: translatey(40px);
+  }
+  100%{
+    transform: translatey(10px);
+  }
+}
+ 
+
+#edu:hover{
+  box-shadow: 0px 0px 10px 0px #9effcf;
+}
+
+#skill{
+  font-size: 18px;
+}
+
+#edu:hover #skill{
+  color: #4BFFA5;
+  text-shadow: 0px 0px 10px #9effcf;
+
+}
+
+
+input::placeholder{
+  color: dimgray;
+  padding-left: 5px;
+}
+
+input{
+  color: white;
+  padding-left: 10px;
+}
+
+textarea{
+  color: white;
+  padding-left: 10px;
+}
+
+#built{
+  animation: built;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration:  90s;
+}
+
+@keyframes built{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(5000deg);
+    }
+}
+
+#webimg{
+    overflow: auto;  
+    cursor: pointer;
+    border-radius: 10px;
+   scrollbar-color: black;
+}
+
+#website{
+  overflow: hidden;
+  box-shadow: 0px 0px 5px 0px #4BFFA5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/* #website:hover #websiteimg{
+  transform: translatey(-60%);
+  transition: 2s;
+} */
