@@ -4,7 +4,7 @@ function Education() {
   return (
     <section className='w-[100%] xl:h-[auto] pb-[3%] bg-[#0C0C0C] flex justify-center items-center'>
         
-      <div className='section pt-[2%] w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
+      <div className='section pt-[3%] w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
       
         <div className='w-[90%] h-[40vw] rounded-[10px] bg-[#1D1D1D] flex justify-center items-center'>
             <h1 className='text-[8vw] lg:text-[6vw] xl:text-[6vw] text-[#4BFFA5] underline decoration-2 underline-offset-[20px] decoration-[#4BFFA5]'>Education</h1>
@@ -12,7 +12,7 @@ function Education() {
 
       {/* ------------------------- */}
 
-         <hr className='w-[90%] text-[dimgray] mt-[2%]'  />
+         <hr className='w-[90%] text-[dimgray] mt-[3%]'  />
 
       {/* Education-section------ */}
 

@@ -72,6 +72,7 @@ function Header() {
 
 
   return (
+    
     <div className='w-[100%] bg-[#0C0C0C] h-[120px] flex justify-evenly items-center lg:flex lg:justify-around lg:items-center xl:flex xl:justify-around xl:items-center'>
         
         <div className='Logo flex justify-center items-center w-[12%] h-[100%]'>
@@ -106,9 +107,7 @@ function Header() {
       <div className="cursor"></div>
       <div className="cursor2"></div>
 
-    
-
-      </div>
+     </div>
   ) 
 }
 
