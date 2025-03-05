@@ -78,8 +78,8 @@ function Header() {
            <Link to={"/"} ><img src="https://media-hosting.imagekit.io//7010881624944de1/chintan-rathod-(1).png?Expires=1835458677&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=gaQSmuZFUbJmhT8S7l5mmG0h4RHMd1NjF7tkfL1T7~aiCuk9JmPrKGg2Uf1RZFj3o8cdCfMYP92y6mci9-WubKEwUXBDAa5vzyapyR63BNF2VakGRQNooESl4dTU5idhwqQK~eESrriv7HJ5JzM9Dd-qeoh7EeaOpM-BBqzrxuZ82AGvHNE3O5g4eYjABwb5DWDsTy3gtZWVapKxwcoQ5u1F4bK4BvCsdPBMpl~N1NqPX3EjufAc2UtvzPFeuq~1P7gJ6ykkPFZ2XlPdln~cVj99IOvIw6pTWz9MpEydAQZj7JeyqlsNDwDJ1jNlEJA7p8jLzZej6sf596sFO7IcEA__" alt="" className='xl:w-[45%] lg:w-[55%]' /></Link>
         </div>
         
-        <nav className={`lg:w-[60%]  xl:w-[50%] xl:h-[100%] flex justify-center items-center lg:block xl:block ${toggle == true ? 'block' : 'hidden'}`} ref={navbar}>
-            <ul className='absolute top-[120px] left-0 bg-[#1D1D1D] lg:bg-[#0C0C0C] flex flex-col items-start ps-10 leading-[50px] w-full h-[auto] lg:w-[100%] lg:h-[100%] lg:relative lg:top-0  lg:flex lg:flex-row lg:justify-between lg:items-center   xl:w-[100%] xl:h-[100%] xl:relative xl:top-0  xl:flex xl:flex-row xl:justify-between xl:items-center lg:block'>
+        <nav className={`lg:w-[60%] lg:h-[100%] lg:w-[50%]   xl:w-[50%] xl:h-[100%] flex justify-center items-center lg:block xl:block ${toggle == true ? 'block' : 'hidden'}`} ref={navbar}>
+            <ul className='absolute top-[120px] left-0 pt-[5%] pb-[5%] bg-[#1D1D1D] lg:bg-[#0C0C0C] flex flex-col items-start ps-10 leading-[50px] w-full h-[auto] lg:w-[100%] lg:h-[100%] lg:relative lg:top-0  lg:flex lg:flex-row lg:justify-between lg:items-center   xl:w-[100%] xl:h-[100%] xl:relative xl:top-0  xl:flex xl:flex-row xl:justify-between xl:items-center lg:block'>
                 <li><Link to={"/"} id="icons"><i class="ri-home-4-line"></i> &nbsp;Home</Link></li>
                 <li><Link to={"/about"} id="icons"><i class="ri-information-2-line"></i> &nbsp;About</Link></li>
                 <li><Link to={"/education"} id="icons"><i class="ri-graduation-cap-line"></i> &nbsp;Education</Link></li>

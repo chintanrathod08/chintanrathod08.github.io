@@ -102,15 +102,15 @@ function Projects() {
   return (
     <section className='w-[100%] h-[auto] pb-[3%] bg-[#0C0C0C] flex justify-center items-center'>
 
-    <div className='section w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
+    <div className='section w-[95%] pt-[2%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
 
-      <div className='w-full h-[40vw]  flex justify-center items-center'>
+      <div className='w-[90%] h-[40vw] rounded-[10px] bg-[#1D1D1D] flex justify-center items-center'>
         <h1 className='text-[8vw] lg:text-[6vw] xl:text-[6vw] text-[#4BFFA5] underline decoration-2 underline-offset-[20px] decoration-[#4BFFA5]'>Projects</h1>
       </div>
 
       {/* ------------------------- */}
 
-      <hr className='w-[90%] text-[dimgray]' />
+      <hr className='w-[90%] text-[dimgray] mt-[2%]' />
 
       {/* ------------------------- */}
 
@@ -132,8 +132,8 @@ function Projects() {
           {/* ---------1------------ */}
           <div className='h-[auto] flex flex-col  xl:grid xl:grid-cols-2 xl:flex xl:justify-center xl:items-center  p-[3%] gap-4  rounded-[10px]   border border-[dimgray]'>
             
-              <div id='website' className='h-[500px] lg:h-[700px] xl:h-[450px] w-full flex justify-center items-start yoverflow-hidden'>
-                <img  src="https://media-hosting.imagekit.io//dffeab900bec4730/Website-1.png?Expires=1835458770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=25VEiXjqYjfedwn2KQGc7miFwd~ymE6oBFDrKDcb~ogH3cT11GmWD7rDwGU0Y6wAmKHvHMtX-bIpcB5b2~iIxUBj5hma-P97jw5LfnZepfV06PYN8HZrlrfo66HeDDyBDfK8RPj1DBbpwFk9zz9CXYatMJt2PlhspGVWCXjRv3KIoMUtC36I7C0fphxUSvg3lr07sfdjJOw3wkP27lrXRl3wCRZfXsBmx1yJQbxU0WJ5fYBAOK2mlArok~McThheSsjrAHEfCPNACNTZ16YT9bwuarhfjM-olAvrsxnMpGjgRlcO5iz2WFVNJQmShOhHEfj4Dm6yKEzdeLsUM~24DQ__" id='websiteimg' alt="" className='rounded-[10px]  w-full  hover:transform xl:hover:translate-y-[-72.5%] hover:transition duration-[5s]' />
+              <div id='website' className='h-[500px] lg:h-[700px] xl:h-[450px] w-full flex justify-center items-start'>
+                <img  src="https://media-hosting.imagekit.io//dffeab900bec4730/Website-1.png?Expires=1835458770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=25VEiXjqYjfedwn2KQGc7miFwd~ymE6oBFDrKDcb~ogH3cT11GmWD7rDwGU0Y6wAmKHvHMtX-bIpcB5b2~iIxUBj5hma-P97jw5LfnZepfV06PYN8HZrlrfo66HeDDyBDfK8RPj1DBbpwFk9zz9CXYatMJt2PlhspGVWCXjRv3KIoMUtC36I7C0fphxUSvg3lr07sfdjJOw3wkP27lrXRl3wCRZfXsBmx1yJQbxU0WJ5fYBAOK2mlArok~McThheSsjrAHEfCPNACNTZ16YT9bwuarhfjM-olAvrsxnMpGjgRlcO5iz2WFVNJQmShOhHEfj4Dm6yKEzdeLsUM~24DQ__" id='websiteimg' alt="" className='rounded-[10px] w-full' />
               </div>
               
 
@@ -178,7 +178,7 @@ function Projects() {
             </div>      
           
           <div id='website' className='h-[500px] lg:h-[700px] xl:h-[450px] w-full flex justify-center items-start'>
-            <img  src="https://media-hosting.imagekit.io//17c96cd6acde4644/Website-2.png?Expires=1835458770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=DQA2ynQpKu1LZYsPaQc8~Y1LsHgowuXPk6nSnjbl9xA7uQC9lpl2S-A7YwWO7Eboz73sclYQ1k~Lf8ZiNCn1qQb0uCy11ymltp~hLHGrkuo6ZUIL~OekqiscV762DSd1BNHU~-zfdQX1bRLDzoZLgN~Z2IZ1wUrN7ggjJlaS02gsSlXsLmKKjg5py42bbZK4~TUjpnAFS2-6iMp5XY9EkgO0QwDgLTC3AXxK1wIfsL7l7qt18s1KFnQmlcjeWywsQKswfvMUsiGqeevgEElLe9k5zhtAjNpsAOHYQ4nFdgqc3czA1Kk78iPQYTeejoQdN1kCHG2hiiJhNEl57Exnkw__" alt="" id='websiteimg' className='rounded-[10px] w-full hover:transform xl:hover:translate-y-[-64%] hover:transition duration-[3s]' />
+            <img  src="https://media-hosting.imagekit.io//17c96cd6acde4644/Website-2.png?Expires=1835458770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=DQA2ynQpKu1LZYsPaQc8~Y1LsHgowuXPk6nSnjbl9xA7uQC9lpl2S-A7YwWO7Eboz73sclYQ1k~Lf8ZiNCn1qQb0uCy11ymltp~hLHGrkuo6ZUIL~OekqiscV762DSd1BNHU~-zfdQX1bRLDzoZLgN~Z2IZ1wUrN7ggjJlaS02gsSlXsLmKKjg5py42bbZK4~TUjpnAFS2-6iMp5XY9EkgO0QwDgLTC3AXxK1wIfsL7l7qt18s1KFnQmlcjeWywsQKswfvMUsiGqeevgEElLe9k5zhtAjNpsAOHYQ4nFdgqc3czA1Kk78iPQYTeejoQdN1kCHG2hiiJhNEl57Exnkw__" alt="" id='websiteimg' className='rounded-[10px] w-full' />
           </div>
           </div>
          
@@ -186,7 +186,7 @@ function Projects() {
           <div className='h-[auto] flex flex-col xl:grid xl:grid-cols-2 xl:flex xl:justify-center xl:items-center  p-[3%] gap-4 h-[500px] mt-[5%]  rounded-[10px] border border-[dimgray]'>
          
           <div id='website' className='h-[500px] lg:h-[700px] xl:h-[450px] w-full flex justify-center items-start'>
-          <img  src="https://media-hosting.imagekit.io//27b1802221fc439a/Admian%20Panel.png?Expires=1835458677&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UnN7At5AZzl56xMGsn3xXZJsFkF-4RzL90XPo2R2HlDLLXGF4EqsV0rorvIb-6uOG72MV27WIean7NpjLK9QD0coKcfHm245gxMybOxv4lJh4LR1sNAys8w6oxGNgk9FKAePHnfQbLfDkv2YSFZGbi9Tsvr7H1xs8jcDm2ICOof5Jm-upl4MA0rjErMJRF~oCBwCzF3bPuXhF3einCL3WQuBjpdsi47NcMbsRWScmWOQ4Ta23K7JI0gJys-734gCHdI0zZT4X8pgYZThVxBggf7XrWLhGcVVLpXO~gkuxah6emJpmPIMLZZGIH7L0lcwKb7D7zDTlLz3f-1m1PJ-JQ__" alt="" id='websiteimg' className='rounded-[10px] w-full hover:transform hover:translate-y-[-37%] hover:transition duration-[3s]' />
+          <img  src="https://media-hosting.imagekit.io//27b1802221fc439a/Admian%20Panel.png?Expires=1835458677&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=UnN7At5AZzl56xMGsn3xXZJsFkF-4RzL90XPo2R2HlDLLXGF4EqsV0rorvIb-6uOG72MV27WIean7NpjLK9QD0coKcfHm245gxMybOxv4lJh4LR1sNAys8w6oxGNgk9FKAePHnfQbLfDkv2YSFZGbi9Tsvr7H1xs8jcDm2ICOof5Jm-upl4MA0rjErMJRF~oCBwCzF3bPuXhF3einCL3WQuBjpdsi47NcMbsRWScmWOQ4Ta23K7JI0gJys-734gCHdI0zZT4X8pgYZThVxBggf7XrWLhGcVVLpXO~gkuxah6emJpmPIMLZZGIH7L0lcwKb7D7zDTlLz3f-1m1PJ-JQ__" alt="" id='websiteimg' className='rounded-[10px] w-full' />
           </div>
           
           <div className='h-full xl:ps-3 mt-[5%] lg:mt-[0%] xl:mt-[0%]'>
@@ -237,7 +237,7 @@ function Projects() {
 
 
           <div id='website' className='h-[500px] lg:h-[700px] xl:h-[450px] w-full flex justify-center items-start'>
-             <img  src="https://media-hosting.imagekit.io//20c1c3a1851f490c/Website-3.png?Expires=1835458770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nba-uof7gN6Etuh3gLr-XUpGGYVwgFjMLFgtVpRogrTjt8GivCKCVxGTvF2WD5gBOSQRBk9Jis1wXqFmGaX-sR8-oGSgPO3PTSpvvB8cbvspHVqTLWQB-pHWzWPRdcahON9McNM-U5nHOpFn-G28OXkUiBhMDY31zbtWKeLNAMathj663FOfhRZvM8pEaV0v8dZjI0Agp0IixPFgXCYc3dyQSqyMjK1vQ2OXt9TWxwm61c57RKJgxS15I-r~vy3mtKiEbvqIJz0B9VR8khde4TD2LpttSZlAHhp9L-~rasJ0W4gHzyr4KVh5AuEq5qR8J4tfUyjOlM-ETm7F3GJisA__" alt="" id='websiteimg' className='rounded-[10px] w-full hover:transform hover:translate-y-[-79%] hover:transition duration-[5s]' />
+             <img  src="https://media-hosting.imagekit.io//20c1c3a1851f490c/Website-3.png?Expires=1835458770&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nba-uof7gN6Etuh3gLr-XUpGGYVwgFjMLFgtVpRogrTjt8GivCKCVxGTvF2WD5gBOSQRBk9Jis1wXqFmGaX-sR8-oGSgPO3PTSpvvB8cbvspHVqTLWQB-pHWzWPRdcahON9McNM-U5nHOpFn-G28OXkUiBhMDY31zbtWKeLNAMathj663FOfhRZvM8pEaV0v8dZjI0Agp0IixPFgXCYc3dyQSqyMjK1vQ2OXt9TWxwm61c57RKJgxS15I-r~vy3mtKiEbvqIJz0B9VR8khde4TD2LpttSZlAHhp9L-~rasJ0W4gHzyr4KVh5AuEq5qR8J4tfUyjOlM-ETm7F3GJisA__" alt="" id='websiteimg' className='rounded-[10px] w-full' />
           </div>
           </div>
       
@@ -330,7 +330,7 @@ function Projects() {
 
     </div>
 
-    <a href="#project"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[6%] text-[3.3vw] text-[#4BFFA5] hidden" id="downarr"></i></a>
+    <a href="#project"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[2.2%] text-[30px] sm:right-[2.8%] md:right-[0.6%] lg:right-[5%] xl:right-[7%]  md:text-[35px] lg:text-[37px] xl:text-[3.3vw] text-[#4BFFA5]" id="downarr"></i></a>
      
      
 

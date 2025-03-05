@@ -25,21 +25,21 @@ function Contact() {
   return (
     <section className='w-[100%] xl:h-[auto] pb-[3%] bg-[#0C0C0C] flex justify-center items-center'>
 
-    <div className='section w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
+    <div className='section w-[95%] pt-[2%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
 
-      <div className='w-full h-[40vw]  flex justify-center items-center'>
+      <div className='w-[90%]  h-[40vw] rounded-[10px] bg-[#1D1D1D] flex justify-center items-center'>
         <h1 className='text-[8vw] lg:text-[6vw] xl:text-[6vw] text-[#4BFFA5] underline decoration-2 underline-offset-[20px] decoration-[#4BFFA5]'>Contact</h1>
       </div>
 
       {/* ------------------------- */}
 
-      <hr className='w-[90%] text-[dimgray]' />
+      <hr className='w-[90%] text-[dimgray] mt-[2%]' />
 
       {/* ------------------------- */}
 
       {/* Contact-section------ */}
 
-      <section id='Contact' className='w-[90%] h-[auto] pt-[3%] pb-[3%] lg:flex lg:grid lg:grid-cols-2 lg:gap-4  xl:flex xl:grid xl:grid-cols-2 xl:gap-5 mt-[3%]'>
+      <section id='Contact' className='w-[90%] h-[auto]  pb-[3%] lg:flex lg:grid lg:grid-cols-2 lg:gap-4  xl:flex xl:grid xl:grid-cols-2 xl:gap-5 mt-[2%]'>
 
       <div className="p-6 md:p-8 rounded-lg shadow-md max-w-md w-full">
           
@@ -104,8 +104,9 @@ function Contact() {
 
     </div>
 
-    <a href="#Contact"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[6%] text-[3.3vw] text-[#4BFFA5]" id="downarr"></i></a>
-  </section>
+    <a href="#Contact"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[2.2%] text-[30px] sm:right-[2.8%] md:right-[0.6%] lg:right-[5%] xl:right-[7%]  md:text-[35px] lg:text-[37px] xl:text-[3.3vw] text-[#4BFFA5]" id="downarr"></i></a>
+    
+    </section>
   )
 }
 

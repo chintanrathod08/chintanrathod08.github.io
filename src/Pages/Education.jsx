@@ -4,19 +4,19 @@ function Education() {
   return (
     <section className='w-[100%] xl:h-[auto] pb-[3%] bg-[#0C0C0C] flex justify-center items-center'>
         
-      <div className='section w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
+      <div className='section pt-[2%] w-[95%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
       
-        <div className='w-full h-[40vw]  flex justify-center items-center'>
+        <div className='w-[90%] h-[40vw] rounded-[10px] bg-[#1D1D1D] flex justify-center items-center'>
             <h1 className='text-[8vw] lg:text-[6vw] xl:text-[6vw] text-[#4BFFA5] underline decoration-2 underline-offset-[20px] decoration-[#4BFFA5]'>Education</h1>
           </div>
 
       {/* ------------------------- */}
 
-         <hr className='w-[90%] text-[dimgray]'  />
+         <hr className='w-[90%] text-[dimgray] mt-[2%]'  />
 
       {/* Education-section------ */}
 
-    <div id='Education' className='w-[90%] xl:h-[auto] pt-[3%] pb-[3%] flex flex-col justify-center items-center md:grid md:grid-cols-2 lg:grid lg:grid-cols-3  xl:flex xl:grid xl:grid-cols-3 gap-5 mt-[3%]'>
+    <div id='Education' className='w-[90%] xl:h-[auto]  pb-[3%] flex flex-col justify-center items-center md:grid md:grid-cols-2 lg:grid lg:grid-cols-3  xl:flex xl:grid xl:grid-cols-3 gap-5 mt-[3%]'>
 
         <div id='edu' className='h-[auto] border border-[#4BFFA5] rounded-[10px] ps-[20px] p-[15px] pt-[7%] pb-[7%] text-[white]'>
             <p className='text-[#A9A6A9]'>( 2023 - 2025 )</p>
@@ -59,8 +59,9 @@ function Education() {
 
     
     </div>
-       
-       <a href="#Education"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[6%] text-[3.3vw] text-[#4BFFA5]" id="downarr"></i></a>
+
+    <a href="#Education"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[2.2%] text-[30px] sm:right-[2.8%] md:right-[0.6%] lg:right-[5%] xl:right-[7%]  md:text-[35px] lg:text-[37px] xl:text-[3.3vw] text-[#4BFFA5]" id="downarr"></i></a>
+
     </section>
   )
 }

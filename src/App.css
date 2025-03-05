@@ -138,14 +138,16 @@ textarea{
 }
 
 #website{
-  overflow: hidden;
-  box-shadow: 0px 0px 5px 0px #4BFFA5;
+  overflow: auto;
   border-radius: 10px;
   cursor: pointer;
 }
 
 
-/* #website:hover #websiteimg{
-  transform: translatey(-60%);
-  transition: 2s;
+/* #titlebg{
+  background-image: url(https://media-hosting.imagekit.io//fa79638a43204ff4/titlebg-removebg-preview.png?Expires=1835770551&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dV-6khsSYgzz4cOWpebCIzmiig25gxr0RcgtvaGYUYGZOl9VeflAe17Zl9bMPOwgmrFh9zhf96uGwZJTryOjF~jR65NPqm~ZgrNx3VwPV0F3nTtl9K3JgpfO6JWVTUdQTsbjZAFG-1CKlsKBXjhozfwHsG9KF5kNwwhvrDuWMdMImBWaN4veYJ9U1iSNFvbvsCoa5pb37z~9ypZKwdB0NOloC5-BG3iltpwcu3YYsrVj2eSsrQs3Dn2v7FvvsquPVLYzRx9J7PeUkHVT7r7nupp3qLtRO5m0iTtpyquputHXzQQWLCbjstjtTjcQ-2B43PAhEUXgBszAEv3N2~6jvg__);
+  background-position: center;
+  background-repeat: no-repeat;
+
 } */
+
