@@ -1,11 +1,10 @@
 import React from 'react'
-// import "../CSS/Particale.css"
-// import "../JS/Particale.js"
+
 
 function About() {
   return ( 
 
-      <div className='w-[100%] xl:h-[auto] pb-[3%] bg-[#0C0C0C] flex justify-center items-center'>
+      <section className='w-[100%] xl:h-[auto] pb-[3%] bg-[#0C0C0C] flex justify-center items-center'>
         
       <div className='section w-[95%] pt-[3%] md:w-[90%] lg:w-[80%] xl:w-[70%] h-full flex flex-wrap justify-center items-center'>
       
@@ -71,7 +70,12 @@ function About() {
        
     <a href="#about"><i className="ri-arrow-down-s-line  fixed bottom-[25%] right-[2.2%] text-[30px] sm:right-[2.8%] md:right-[0.6%] lg:right-[5%] xl:right-[7%]  md:text-[35px] lg:text-[37px] xl:text-[3.3vw] text-[#4BFFA5]" id="downarr"></i></a>
        
-  </div>
+
+    {/* <svg class="size-6 animate-bounce ..."></svg> */}
+   
+
+
+  </section>
            
    
   )

@@ -6,14 +6,14 @@ nav ul li{
 #icons{
   position: relative;
   display: flex;
-  justify-content: center;
+   justify-content: center;
    align-items: end;
 }
 
 #icons::before{
   position: absolute;
   content: "";
-  /* bottom: -4px; */
+  bottom: 5px;
   width: 0%;
   height: 2px;
   border-radius: 50px;
@@ -134,7 +134,7 @@ textarea{
     overflow: auto;  
     cursor: pointer;
     border-radius: 10px;
-   scrollbar-color: black;
+     scrollbar-color: black;
 }
 
 #website{
@@ -142,4 +142,6 @@ textarea{
   border-radius: 10px;
   cursor: pointer;
 }
+
+
 

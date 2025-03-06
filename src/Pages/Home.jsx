@@ -19,13 +19,14 @@ function Home() {
 
                 {/* ----------------------- */}
 
-                <div className='w-[100%]   xl:w-[50%] h-[100%] flex justify-center items-center mt-[10%] md:mt-[6%] lg:mt-[0%] xl:mt-[0%]'>
-                  <img src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" alt="" className='rounded-[10px] w-[65%] sm:w-[60%] md:w-[45%] lg:w-[70%] xl:w-[80%]' />
+                <div className='w-[100%]   xl:w-[50%] h-[100%] flex justify-center items-center pb-[5%] sm:pb-[5%] md:pb-[0%] mt-[10%] md:mt-[6%] lg:mt-[0%] xl:mt-[0%]'>
+                  <img src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" alt="" className='rounded-[10px] w-[65%] sm:w-[50%] md:w-[45%] lg:w-[70%] xl:w-[80%]' />
                 </div> 
                
                
         </div>
-        
+
+          
     
        </div>
   )

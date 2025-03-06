@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../CSS/Pointer.css"
 import "../JS/Headline.js"
+// import Loader from '../Pages/Loader.jsx'
 
 
 function Header() {
@@ -93,7 +94,7 @@ function Header() {
 
         <i className="ri-menu-line text-[white] lg:hidden xl:hidden text-[23px]" onClick={Menubar}></i>
         
-        <button className='resume  text-[black] text-[18px] xl:text-[20px] rounded-lg bg-[#4BFFA5] w-[120px] h-[35px] xl:h-[40px] '>
+        <button className='resume  text-[black] text-[18px] xl:text-[20px] rounded-lg bg-[#4BFFA5] w-[105px] h-[30px] xl:h-[40px] '>
            <a href="https://drive.google.com/file/d/1azhLwpyfzKGprOQC1hl7QrLsCVxRApon/view?usp=drive_link" download target='_blank' > Resume</a> 
         </button>
     
@@ -106,6 +107,9 @@ function Header() {
       {/* <!-- pointer --> */}
       <div className="cursor"></div>
       <div className="cursor2"></div>
+
+
+
 
      </div>
   ) 
